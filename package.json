@@ -1,0 +1,29 @@
+{
+  "name": "maktaba",
+  "version": "1.0.0",
+  "description": "Online book store",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "devStart": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/J03yK1n9/maktaba.git"
+  },
+  "keywords": [],
+  "author": "J03y K1n9",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/J03yK1n9/maktaba/issues"
+  },
+  "homepage": "https://github.com/J03yK1n9/maktaba#readme",
+  "dependencies": {
+    "ejs": "^3.1.3",
+    "express": "^4.17.1",
+    "express-ejs-layouts": "^2.5.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.4"
+  }
+}
